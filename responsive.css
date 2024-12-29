@@ -1,0 +1,116 @@
+@media screen and (max-width:990px) {
+    .nav-links li a
+    {
+        margin-left: 0 !important;
+    }
+}
+
+@media screen and (max-width:770px) {
+    .navbar{
+        width: 90%;
+    }
+    .child_anasayfa h1 {
+        font-size: 35px !important;
+    }
+    .inner_anasayfa
+    {
+        flex-direction: column;
+        width: 95%;
+        padding-top: 0px !important;
+    }
+    .logo h2 a{
+        font-size: 20px;
+    }
+    .nav-links{
+        flex-direction: column;
+        position: absolute;
+        background: #65c2d5;
+        width: 100%;
+        left: 0;
+        padding: 0;
+    }
+    .nav-links li a{
+        border-bottom: 1px solid #fff;
+        display: block;
+        border-radius: 0;
+        padding: 10px 0;
+        margin: 0 20px;
+    }
+    .inner_software_child {
+        flex-basis: 100% !important;
+        margin-bottom: 15px;
+    }
+    .inner_courses {
+        justify-content: center !important;
+    }
+    .inner_achivement {
+        flex-direction: column;
+    }
+    .child_achivement2 {
+        margin-top: 20px;
+    }
+    .single_detail {
+        flex-basis: 100% !important;
+    }
+    .child_achivement > img
+    {
+        display: none;
+    }
+    .inner_testi
+    {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .inner_comunication
+    {
+        flex-direction: column;
+    }
+    .child_comunication2
+    {
+        width: 100%;
+    }
+    .footer_inner {
+        align-items: start;
+        flex-direction: column;
+        gap: 35px;
+    }
+    .child_footer {
+        font-size: 12px;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 25px;
+    }
+    .navbar
+    {
+        display: none !important;
+    }
+    .menu_bar
+    {
+        display: block;
+    }
+    #menu_bar
+    {
+        display: block !important;
+    }
+}
+@media screen and (max-width:450px) {
+    .child_anasayfa h1 {
+        font-size: 25px !important;
+    }
+    .child_anasayfa > img
+    {
+        margin-top: 70px;
+    }
+    .inner_software_child p {
+        font-size: 12px !important;
+    }
+    .child_testi {
+        font-size: 14px;
+    }
+    .child_footer h3 {
+        font-size: 18px;
+    }
+}
